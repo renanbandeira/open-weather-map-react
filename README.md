@@ -14,7 +14,7 @@ In order to use this app, you need to create a .env file and add `REACT_APP_OWM_
 
 ## Available Scripts (From Create-React-APP)
 
-In the project directory, you can run:
+In the project directory, you can run: https://open-weather-map-react.herokuapp.com/
 
 ### `yarn start`
 
