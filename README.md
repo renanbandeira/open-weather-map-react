@@ -1,8 +1,18 @@
-# Getting Started with Create React App
+# Open Weather Map React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a responsive page that fetches user's current location and returns weather information about the related address consuming API from http://api.openweathermap.org/ .
 
-## Available Scripts
+## Tools
+
+This project was made with create-react-app, axios and react-bootstrap.
+
+## Usage
+
+This is a simple page app where user only have one button to refresh weather data from its current position. Once user opens the app for the first time, the app will fetch its position and get weather data from the coordinates fetched. This app is tested by Jest since it is a simple application, it uses only useState to store data.
+
+In order to use this app, you need to create a .env file and add `REACT_APP_OWM_API_KEY=<Your_Open_Weather_Maps_API>`
+
+## Available Scripts (From Create-React-APP)
 
 In the project directory, you can run:
 
