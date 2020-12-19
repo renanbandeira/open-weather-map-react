@@ -4,7 +4,7 @@ This is a responsive page that fetches user's current location and returns weath
 
 ## Tools
 
-This project was made with create-react-app, axios and react-bootstrap.
+This project was made with create-react-app, axios and react-bootstrap. You can see it working on https://open-weather-map-react.herokuapp.com/
 
 ## Usage
 
@@ -12,9 +12,27 @@ This is a simple page app where user only have one button to refresh weather dat
 
 In order to use this app, you need to create a .env file and add `REACT_APP_OWM_API_KEY=<Your_Open_Weather_Maps_API>`
 
+## Cypress tests
+
+There are e2e cypress tests on this sample project. In order to run it, you first need to run `yarn build` to generate bundle from application and then you have two options:
+
+### Using cypress open
+```
+yarn cypress:build:open
+```
+
+This command will serve the build folder on localhost PORT 9154 and run cypress open to run cypress UI in order to chose wether test suite you want to run and follow the test.
+
+### Using cypress run
+```
+yarn cypress:build:run
+```
+
+This command will serve the build folder on localhost PORT 9154 and run cypress run to run cypress via terminal.
+
 ## Available Scripts (From Create-React-APP)
 
-In the project directory, you can run: https://open-weather-map-react.herokuapp.com/
+In the project directory, you can run:
 
 ### `yarn start`
 
